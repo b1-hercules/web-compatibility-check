@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing on various web browser, mac intel chipset</description>
+   <name>test browser compability 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfa03130-1f9a-4c60-a817-c4e8bc37045b</testCaseGuid>
+</TestCaseEntity>
