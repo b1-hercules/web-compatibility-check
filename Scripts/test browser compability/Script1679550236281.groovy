@@ -29,6 +29,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcar
 
 WebUI.delay(3)
 
-WebUI.comment('oke')
+WebUI.comment('ini comment')
 
 WebUI.closeBrowser()
