@@ -21,9 +21,13 @@ WebUI.openBrowser('http://demoaut.katalon.com', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
+WebUI.takeScreenshotAsCheckpoint('full_view1', FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.takeScreenshotAsCheckpoint('full_view2', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Login'), 0)
 
